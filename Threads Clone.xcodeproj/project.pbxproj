@@ -62,6 +62,7 @@
 		3C2097A72A9C65E80005F6DA /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2097A62A9C65E80005F6DA /* FeedViewModel.swift */; };
 		3C2097AB2A9CF1E60005F6DA /* UserContentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2097AA2A9CF1E60005F6DA /* UserContentListViewModel.swift */; };
 		3C2097AD2A9CF5850005F6DA /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2097AC2A9CF5850005F6DA /* Timestamp.swift */; };
+		3C683CB92ACE8C3E001BD971 /* ThreadsReplyProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C683CB82ACE8C3E001BD971 /* ThreadsReplyProfileCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +117,7 @@
 		3C2097A62A9C65E80005F6DA /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		3C2097AA2A9CF1E60005F6DA /* UserContentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContentListViewModel.swift; sourceTree = "<group>"; };
 		3C2097AC2A9CF5850005F6DA /* Timestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
+		3C683CB82ACE8C3E001BD971 /* ThreadsReplyProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsReplyProfileCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -611,6 +613,7 @@
 			children = (
 				3C2097922A9BCE570005F6DA /* ProfileHeaderView.swift */,
 				3C2097942A9BCFCE0005F6DA /* UserContentListView.swift */,
+				3C683CB82ACE8C3E001BD971 /* ThreadsReplyProfileCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -737,6 +740,7 @@
 				3C20977B2A9B72440005F6DA /* ContentViewModel.swift in Sources */,
 				3C2097842A9BC0AE0005F6DA /* CurrentUserProfileViewModel.swift in Sources */,
 				3C20973D2A9B32230005F6DA /* ThreadsTextFieldModifier.swift in Sources */,
+				3C683CB92ACE8C3E001BD971 /* ThreadsReplyProfileCell.swift in Sources */,
 				3C20978D2A9BCC090005F6DA /* CurrentUserProfileView.swift in Sources */,
 				3C2097AD2A9CF5850005F6DA /* Timestamp.swift in Sources */,
 				3C2097212A9B2C730005F6DA /* Threads_CloneApp.swift in Sources */,

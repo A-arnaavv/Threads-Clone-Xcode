@@ -52,8 +52,15 @@ struct UserContentListView: View {
             }
             
             LazyVStack {
-                ForEach(viewModel.threads) { thread in
-                    ThreadCell(thread: thread)
+                switch selectedFilter {
+                case .threads:
+                    ForEach(viewModel.threads) { thread in
+                        ThreadCell(thread: thread)
+                    }
+                case .replies:
+                    ForEach(0 ... 3, id: \.self) { reply in
+                        ThreadsReplyProfileCell(reply: DeveloperPreview.shared.reply)
+                    }
                 }
             }
         }
