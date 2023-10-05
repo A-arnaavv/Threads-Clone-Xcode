@@ -48,6 +48,7 @@ struct ThreadsReplyProfileCell: View {
                 .font(.footnote)
             }
             Divider()
+                .padding(.bottom, 8)
         }
         .padding(.horizontal)
     }

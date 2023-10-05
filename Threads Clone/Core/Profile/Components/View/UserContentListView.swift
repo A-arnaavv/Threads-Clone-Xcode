@@ -56,10 +56,12 @@ struct UserContentListView: View {
                 case .threads:
                     ForEach(viewModel.threads) { thread in
                         ThreadCell(thread: thread)
+                            .transition(.move(edge: .leading))
                     }
                 case .replies:
-                    ForEach(0 ... 3, id: \.self) { reply in
-                        ThreadsReplyProfileCell(reply: DeveloperPreview.shared.reply)
+                    ForEach(viewModel.replies) { reply in
+                        ThreadsReplyProfileCell(reply: reply)
+                            .transition(.move(edge: .trailing))
                     }
                 }
             }
